@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ECF milestone="Sun Apr 15 12:22:25 2018
+">
+	<Registry>
+		<Entry key="Lexicase.distance">3.6</Entry>
+		<Entry key="Tree.functionset">sin cos + - / *</Entry>
+		<Entry key="Tree.maxdepth">4</Entry>
+		<Entry key="Tree.terminalset">1 X [-1 1]</Entry>
+		<Entry key="batch.logfile_">*</Entry>
+		<Entry key="batch.remaining_">0</Entry>
+		<Entry key="batch.repeats">0</Entry>
+		<Entry key="log.filename">log.txt</Entry>
+		<Entry key="log.level">3</Entry>
+		<Entry key="milestone.elapsedtime_">10</Entry>
+		<Entry key="milestone.filename">m.txt</Entry>
+		<Entry key="milestone.generation_">5390</Entry>
+		<Entry key="mutation.indprob">0.3</Entry>
+		<Entry key="population.size">200</Entry>
+		<Entry key="term.fitnessval">0</Entry>
+	</Registry>
+	<Population size="1">
+		<HallOfFame size="1">
+			<Individual size="1" gen="5390">
+				<LexiCaseFitnessMin value="4.79316"/>
+				<Tree size="7">+ cos X + X sin X </Tree>
+			</Individual>
+		</HallOfFame>
+		<Deme size="200">
+			<HallOfFame size="1">
+				<Individual size="1" gen="5390">
+					<LexiCaseFitnessMin value="4.79316"/>
+					<Tree size="7">+ cos X + X sin X </Tree>
+				</Individual>
+			</HallOfFame>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="0"/>
+				<Tree size="7">sin sin * + X 1 D_0.811402 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="9">* / 1 / + 1 D_-0.525218 1 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="6">- cos X cos cos D_-0.0734312 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="0"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="0"/>
+				<Tree size="16">/ * sin cos X - + D_-0.186334 D_0.0134849 cos D_-0.726142 cos cos / 1 D_0.120413 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="0"/>
+				<Tree size="16">sin * - + D_-0.123466 1 * 1 D_-0.567082 / * 1 X / D_-0.987904 D_-0.157474 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="0"/>
+				<Tree size="8">cos sin - * D_-1.0359 X sin D_0.0565911 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="0"/>
+				<Tree size="1">D_-0.458523 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="0"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="0"/>
+				<Tree size="3">- D_0.64689 D_-0.913593 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="3">- X X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="5">/ / X X D_-0.0621836 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.23959"/>
+				<Tree size="12">/ + + cos X D_0.0880598 / * 1 X D_0.203822 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="0.239586"/>
+				<Tree size="16">- sin * cos X X + + + D_-0.507956 D_-0.272943 + 1 X sin D_-1.20025 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="0"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="1">D_2.32441 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="11">sin / + * X D_0.773053 sin D_-0.28785 cos cos X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="0"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="0"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="8">- cos D_0.47861 sin cos * X 1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.23959"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="15">- sin - / D_0.432261 X * D_0.991269 X * cos * X 1 D_-0.106101 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.46587"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.13771"/>
+				<Tree size="2">sin X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.76041"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.23959"/>
+				<Tree size="1">D_0.87045 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.28298"/>
+				<Tree size="2">cos D_0.304489 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.08793"/>
+				<Tree size="18">- + sin + X X sin - X D_0.894216 sin * - 1 X - 1 D_0.902692 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.63086"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.23959"/>
+				<Tree size="5">* - X D_-1.11286 1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.23959"/>
+				<Tree size="3">* 1 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.76041"/>
+				<Tree size="13">cos * + sin 1 / X X / * 1 1 D_0.251267 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.00061"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.6441"/>
+				<Tree size="3">- X D_-1.11286 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="3.97343"/>
+				<Tree size="3">- X D_2.30548 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="0"/>
+				<Tree size="17">* / cos + 1 D_-0.989001 cos / D_-0.238 1 / sin sin 1 * D_-0.842901 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.23959"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.76041"/>
+				<Tree size="1">D_0.47861 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.6988"/>
+				<Tree size="23">/ / / + X 1 - D_-0.694151 D_0.585154 cos cos X + * - 1 1 cos X - cos 1 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.06589"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.76041"/>
+				<Tree size="13">cos * + sin 1 / X X / * 1 1 D_0.251267 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.91211"/>
+				<Tree size="10">* + D_-0.48667 + X X cos + D_0.902432 1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.23959"/>
+				<Tree size="7">/ D_0.150791 cos cos + X D_-0.341861 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.10081"/>
+				<Tree size="9">- D_0.0583427 + / - X D_-0.548572 X D_0.35153 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.78974"/>
+				<Tree size="2">sin D_-0.903053 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.76041"/>
+				<Tree size="4">cos * X 1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="3.78631"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.23959"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.07714"/>
+				<Tree size="7">sin - * D_-0.974109 1 cos X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.72713"/>
+				<Tree size="1">D_0.979901 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.23959"/>
+				<Tree size="3">+ 1 1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="10.6585"/>
+				<Tree size="3">* X X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="3.77754"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.23959"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.79294"/>
+				<Tree size="1">D_0.308015 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.84921"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.39108"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.02231"/>
+				<Tree size="7">sin cos / * 1 X 1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="0.0247794"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.02961"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.34648"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.76454"/>
+				<Tree size="11">+ / cos - 1 D_-0.989001 cos / D_-0.238 1 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.60861"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.23902"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.76041"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.13471"/>
+				<Tree size="5">* - X 1 1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.76041"/>
+				<Tree size="7">- 1 + X + X D_-0.458523 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.19034"/>
+				<Tree size="1">D_0.556642 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.58379"/>
+				<Tree size="3">- X D_0.00342683 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.76041"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.63437"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.60189"/>
+				<Tree size="8">* - sin - 1 D_-0.496631 1 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.30282"/>
+				<Tree size="4">sin + D_-0.383189 D_-2.04276 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.30072"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.3768"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.76041"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="2.10966"/>
+				<Tree size="13">/ + + cos X 1 1 sin + + X 1 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.76041"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.07714"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="3.8585"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.43361"/>
+				<Tree size="2">cos X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.59884"/>
+				<Tree size="1">D_0.00752933 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.74032"/>
+				<Tree size="2">sin D_0.0610911 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.24109"/>
+				<Tree size="2">cos X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="7.91784"/>
+				<Tree size="12">/ / - / D_-0.974109 1 cos X + D_0.479669 D_0.513231 1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.23959"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="7.23959"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.30072"/>
+				<Tree size="11">+ / cos - 1 D_-0.989001 cos / D_-0.238 1 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.16393"/>
+				<Tree size="9">- D_0.0583427 + / - X D_-0.548572 X D_0.35153 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.76454"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="3.43726"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.40206"/>
+				<Tree size="7">sin - * D_-0.842901 1 cos X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.63437"/>
+				<Tree size="11">* cos + - 1 X cos X - X 1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.76041"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="3">+ X X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="3.99286"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="1">D_1.24315 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.23959"/>
+				<Tree size="8">- + / X X X sin 1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.76041"/>
+				<Tree size="10">- cos D_0.576293 * + + 1 X D_-0.450318 D_-0.106101 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="12.9496"/>
+				<Tree size="21">- * * X D_-0.913593 * - 1 1 cos X - / - D_0.384503 D_-0.548572 sin D_0.670603 sin sin D_-0.462425 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.23959"/>
+				<Tree size="3">/ D_-0.431952 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.83241"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.23959"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.30072"/>
+				<Tree size="3">+ X X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.76041"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.46043"/>
+				<Tree size="21">- + + D_0.154205 sin 1 / 1 / X X - / - D_0.384503 D_-0.548572 sin X sin sin D_-0.462425 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.76041"/>
+				<Tree size="1">D_0.881607 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.2516"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.10262"/>
+				<Tree size="6">- sin + X X X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.6566"/>
+				<Tree size="2">cos D_0.960426 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.76041"/>
+				<Tree size="5">+ + D_-0.507956 D_0.444165 1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.23959"/>
+				<Tree size="7">sin + + D_0.132875 X cos X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.13471"/>
+				<Tree size="5">+ / 1 X 1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.79316"/>
+				<Tree size="7">+ cos X + X sin X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.63437"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.10262"/>
+				<Tree size="16">/ + / * D_0.0491347 1 cos X - - 1 X - X X X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="0"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.33379"/>
+				<Tree size="13">* / / X X / X D_-2.34007 + X + X D_-0.458523 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.40631"/>
+				<Tree size="13">/ + + cos 1 1 1 sin + + X 1 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.07714"/>
+				<Tree size="3">/ 1 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.72315"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.76041"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.76041"/>
+				<Tree size="4">cos + D_0.902432 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.90789"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="7.91458"/>
+				<Tree size="9">- * 1 D_-0.684631 sin cos - D_0.354776 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="3">+ 1 1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="12.8184"/>
+				<Tree size="1">D_0.328717 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="5">sin + 1 cos X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.72058"/>
+				<Tree size="1">D_0.47861 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.49527"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.56142"/>
+				<Tree size="12">- * cos * D_0.0491347 1 X + X + X D_-0.458523 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.23959"/>
+				<Tree size="13">- * * cos D_0.799394 / D_-0.0867794 1 * X cos X X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.90789"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="3.93986"/>
+				<Tree size="5">* - X D_-0.479538 1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.32063"/>
+				<Tree size="10">cos - - * 1 X + D_0.35508 1 1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.51432"/>
+				<Tree size="7">* + D_-0.48667 + X X X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="1">D_-0.18452 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.23959"/>
+				<Tree size="1">D_0.378293 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.76041"/>
+				<Tree size="12">- * cos * D_0.615573 1 X + X + X D_-0.458523 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.76041"/>
+				<Tree size="1">D_1.89349 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.63669"/>
+				<Tree size="1">D_2.13015 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="40.7604"/>
+				<Tree size="5">sin - 1 sin D_0.473435 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.23959"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.89057"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.76041"/>
+				<Tree size="20">+ cos cos - X 1 / - sin D_-0.596311 / D_0.308015 D_-0.690635 - - 1 D_0.295529 / D_-0.996574 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="11.7604"/>
+				<Tree size="13">- cos - D_0.354776 X sin * - D_-0.68268 X * D_-0.431952 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="11.5916"/>
+				<Tree size="10">* + 1 D_0.382842 sin * 1 - 1 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="0.398115"/>
+				<Tree size="1">D_0.953318 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="3.37278"/>
+				<Tree size="1">D_2.13015 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.09016"/>
+				<Tree size="18">- cos + 1 cos D_-0.64661 + cos * X 1 - * D_-0.875701 X - 1 1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.23959"/>
+				<Tree size="13">/ + + cos X 1 1 sin + + X 1 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="41.4774"/>
+				<Tree size="10">cos - - * 1 X + D_0.35508 1 1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.11389"/>
+				<Tree size="12">- D_0.251181 - / + D_0.6005 D_-0.548572 sin D_-0.312068 cos sin D_-0.462425 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.76041"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="8.20706"/>
+				<Tree size="11">/ cos * * D_-0.842781 1 * D_-0.864295 D_-0.918096 sin 1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.23959"/>
+				<Tree size="14">- D_-1.20025 + + + D_-0.507956 D_-0.740134 - 1 X sin - 1 1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="7.13404"/>
+				<Tree size="4">sin - 1 D_-0.496631 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="3.37626"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="3.79925"/>
+				<Tree size="6">cos cos cos - X 1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="0.425291"/>
+				<Tree size="1">D_0.0824892 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.43751"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.55842"/>
+				<Tree size="13">* - + sin X X - - 1 1 sin D_0.411047 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.34347"/>
+				<Tree size="4">sin - 1 D_-0.496631 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.56142"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.10081"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.76041"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.76041"/>
+				<Tree size="5">- - D_0.479669 D_-0.238 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="3.91633"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.95451"/>
+				<Tree size="7">- * D_0.473435 D_-0.355562 * X 1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="0.239586"/>
+				<Tree size="7">* X + * X 1 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="3.02859"/>
+				<Tree size="1">D_0.64689 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="3.97819"/>
+				<Tree size="14">sin * + / D_-0.0557623 D_-0.0122302 + 1 1 / sin D_-0.490429 sin X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="41.4774"/>
+				<Tree size="1">D_0.87407 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="41.4774"/>
+				<Tree size="16">* 1 + + - X D_-0.564964 / 1 1 / - 1 X cos X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="0"/>
+				<Tree size="11">- / + X X / X / 1 X X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="17">/ + + cos X D_0.0880598 / * 1 X D_0.203822 sin + + X 1 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.11735"/>
+				<Tree size="1">D_-0.272943 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.63437"/>
+				<Tree size="5">* - X D_-1.11286 1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.23959"/>
+				<Tree size="1">D_-0.974109 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="0.810547"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="8.71026"/>
+				<Tree size="1">D_0.00752933 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.23959"/>
+				<Tree size="3">cos cos X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.76041"/>
+				<Tree size="8">sin cos / * 1 X sin D_0.809348 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.23959"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.55842"/>
+				<Tree size="3">+ 1 1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.69488"/>
+				<Tree size="1">X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="6.09619e-311"/>
+				<Tree size="8">+ * D_0.473435 cos / X D_0.248403 D_-0.974109 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="5.76041"/>
+				<Tree size="1">1 </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="4.60032"/>
+				<Tree size="3">* 1 X </Tree>
+			</Individual>
+		</Deme>
+	</Population>
+</ECF>

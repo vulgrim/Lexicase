@@ -1,0 +1,5 @@
+/home/kristijan/Documents/Seminar/CLion-2017.3.4/clion-2017.3.4/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg
+-- Boost version: 1.66.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/cmake-build-debug
