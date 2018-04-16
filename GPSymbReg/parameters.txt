@@ -18,8 +18,8 @@
         <Entry desc="" key="log.level">3</Entry>
         <Entry desc="" key="milestone.filename">m.txt</Entry>
         <Entry desc="" key="mutation.indprob">0.3</Entry>
-        <Entry desc="" key="population.size">200</Entry>
-        <!--<Entry desc="" key="term.stagnation">50</Entry>-->
+        <Entry desc="" key="population.size">500</Entry>
+        <Entry desc="" key="term.stagnation">500</Entry>
 		<Entry desc="" key="term.fitnessval">0</Entry>
     </Registry>
 </ECF>

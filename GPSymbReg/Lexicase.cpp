@@ -36,33 +36,16 @@ bool Lexicase::advanceGeneration(StateP state, DemeP deme) {
     IndividualP best = select(*deme);
     best = copy(best);
 
-    // select individuals
-    std::vector<IndividualP> wheel;
-    wheel = selectMany(*deme, (uint) deme->size());
-
-    // copy selected to new population
-    for(uint i = 0; i < wheel.size(); ++i)
-        wheel[i] = copy(wheel[i]);
-
-    // replace old population
-    for(uint i = 0; i < deme->size(); i++)
-        replaceWith((*deme)[i], wheel[i]);
-
-//    ECF_LOG(state, 5, "Selected individuals:");
-//    for(uint i = 0; i < deme->size(); i++){
-//        ECF_LOG(state, 5, dbl2str(deme->at(i)->fitness->getValue()));
-//    }
-
     // determine the number of crx operations
-    uint noCrx = (int)(deme->size() * 0.5 /2);  // TODO crxRate_
+     uint noCrx = (int)(deme->size() * 0.5);  // TODO crxRate_
 
     // perform crossover
     for(uint i = 0; i < noCrx; i++){
 
         // select parents
-        IndividualP parent1 = selRandomOpP->select(*deme);
-        IndividualP parent2 = selRandomOpP->select(*deme);
-//        ECF_LOG(state, 5, "Parents: " + dbl2str(parent1->fitness->getValue()) + ", " + dbl2str(parent2->fitness->getValue()));
+        std::vector<IndividualP> parents = selectMany(*deme, 2);
+        IndividualP parent1 = parents[0];
+        IndividualP parent2 = parents[1];
 
         // create children
         IndividualP child1 = copy(parent1);
@@ -99,7 +82,7 @@ IndividualP Lexicase::select(const std::vector<IndividualP>& population) {
     initCases(population.at(0));   // TODO
 
     std::vector<IndividualP> alive;
-    for (int i = 0; i < population.size(); i++) { alive.push_back(population.at(i)); }  // TODO there's got to be a better way
+    for (int i = 0; i < population.size(); i++) alive.push_back(population.at(i));  // TODO there's got to be a better way
 
     std::vector<int> terminate;
 
