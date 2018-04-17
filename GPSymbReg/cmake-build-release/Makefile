@@ -177,6 +177,33 @@ LexiCaseSelBestOp.cpp.s:
 	$(MAKE) -f CMakeFiles/GPSymbReg.dir/build.make CMakeFiles/GPSymbReg.dir/LexiCaseSelBestOp.cpp.s
 .PHONY : LexiCaseSelBestOp.cpp.s
 
+LexiCaseSelOp.o: LexiCaseSelOp.cpp.o
+
+.PHONY : LexiCaseSelOp.o
+
+# target to build an object file
+LexiCaseSelOp.cpp.o:
+	$(MAKE) -f CMakeFiles/GPSymbReg.dir/build.make CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o
+.PHONY : LexiCaseSelOp.cpp.o
+
+LexiCaseSelOp.i: LexiCaseSelOp.cpp.i
+
+.PHONY : LexiCaseSelOp.i
+
+# target to preprocess a source file
+LexiCaseSelOp.cpp.i:
+	$(MAKE) -f CMakeFiles/GPSymbReg.dir/build.make CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.i
+.PHONY : LexiCaseSelOp.cpp.i
+
+LexiCaseSelOp.s: LexiCaseSelOp.cpp.s
+
+.PHONY : LexiCaseSelOp.s
+
+# target to generate assembly for a file
+LexiCaseSelOp.cpp.s:
+	$(MAKE) -f CMakeFiles/GPSymbReg.dir/build.make CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.s
+.PHONY : LexiCaseSelOp.cpp.s
+
 Lexicase.o: Lexicase.cpp.o
 
 .PHONY : Lexicase.o
@@ -273,6 +300,9 @@ help:
 	@echo "... LexiCaseSelBestOp.o"
 	@echo "... LexiCaseSelBestOp.i"
 	@echo "... LexiCaseSelBestOp.s"
+	@echo "... LexiCaseSelOp.o"
+	@echo "... LexiCaseSelOp.i"
+	@echo "... LexiCaseSelOp.s"
 	@echo "... Lexicase.o"
 	@echo "... Lexicase.i"
 	@echo "... Lexicase.s"

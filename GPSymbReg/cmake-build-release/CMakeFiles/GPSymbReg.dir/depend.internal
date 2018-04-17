@@ -57,6 +57,36 @@ CMakeFiles/GPSymbReg.dir/LexiCaseSelBestOp.cpp.o
  /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseFitnessMin.h
  /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseSelBestOp.cpp
  /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseSelBestOp.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Algorithm.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Communicator.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Context.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Crossover.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Deme.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/ECF_base.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/ECF_macro.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/EvaluateOp.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Fitness.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Genotype.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/HallOfFame.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Individual.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Logger.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Migration.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Mutation.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Operator.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Population.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Randomizer.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Registry.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/SelBestOp.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/SelRandomOp.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/SelectionOperator.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/StatCalc.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/State.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/xml/xmlParser.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseFitnessMin.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseSelBestOp.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseSelOp.cpp
+ /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseSelOp.h
 CMakeFiles/GPSymbReg.dir/Lexicase.cpp.o
  /home/kristijan/Documents/Seminar/ECF/trunk/ecf/./Genotype.h
  /home/kristijan/Documents/Seminar/ECF/trunk/ecf/AlgAEliGPEA.h
@@ -191,6 +221,7 @@ CMakeFiles/GPSymbReg.dir/Lexicase.cpp.o
  /home/kristijan/Documents/Seminar/ECF/trunk/ecf/xml/xmlParser.h
  /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseFitnessMin.h
  /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseSelBestOp.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseSelOp.h
  /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/Lexicase.cpp
  /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/Lexicase.h
  /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/SymbRegEvalOp.h
@@ -463,6 +494,7 @@ CMakeFiles/GPSymbReg.dir/main.cpp.o
  /home/kristijan/Documents/Seminar/ECF/trunk/ecf/xml/xmlParser.h
  /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseFitnessMin.h
  /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseSelBestOp.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseSelOp.h
  /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/Lexicase.h
  /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/SymbRegEvalOp.h
  /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/main.cpp

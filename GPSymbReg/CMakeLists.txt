@@ -12,7 +12,7 @@ set(SOURCE_FILES
     main.cpp
     SymbRegEvalOp.cpp
     SymbRegEvalOp.h Lexicase.h Lexicase.cpp LexiCaseFitnessMin.cpp LexiCaseFitnessMin.h
-        LexiCaseSelBestOp.h LexiCaseSelBestOp.cpp)
+        LexiCaseSelBestOp.h LexiCaseSelBestOp.cpp LexiCaseSelOp.h LexiCaseSelOp.cpp)
 
 include_directories(/home/kristijan/Documents/Seminar/ECF/trunk/)
 add_executable(GPSymbReg ${SOURCE_FILES})

@@ -96,6 +96,12 @@
 		<Unit filename="/home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseSelBestOp.h">
 			<Option target="GPSymbReg"/>
 		</Unit>
+		<Unit filename="/home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseSelOp.cpp">
+			<Option target="GPSymbReg"/>
+		</Unit>
+		<Unit filename="/home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseSelOp.h">
+			<Option target="GPSymbReg"/>
+		</Unit>
 		<Unit filename="/home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/Lexicase.cpp">
 			<Option target="GPSymbReg"/>
 		</Unit>

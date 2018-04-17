@@ -15,6 +15,8 @@
 #include "SymbRegEvalOp.h"
 #include "LexiCaseFitnessMin.h"
 #include "LexiCaseSelBestOp.h"
+#include "LexiCaseSelOp.h"
+#include "ecf/SelWorstOp.h"
 
 class Lexicase : public Algorithm {
 public:
@@ -24,14 +26,11 @@ public:
     void registerParameters(StateP state);
 
 protected:
+    SelWorstOpP selWorstOp;
+    LexiCaseSelOpP lexiCaseSelOp;
     float distance;
-//    SymbRegEvalOpP evalOpP;
-    std::vector<uint> case_permutation;
-    IndividualP select(const std::vector<IndividualP>&);
-    std::vector<IndividualP> selectMany(const std::vector<IndividualP>&, int k);
-    void initCases(IndividualP ind);
-    LexiCaseSelBestOpP selBestOpP;
     SelRandomOpP selRandomOpP;
+
 };
 
 typedef boost::shared_ptr<Lexicase> LexicaseP;

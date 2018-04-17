@@ -57,6 +57,36 @@ CMakeFiles/GPSymbReg.dir/LexiCaseSelBestOp.cpp.o: ../LexiCaseFitnessMin.h
 CMakeFiles/GPSymbReg.dir/LexiCaseSelBestOp.cpp.o: ../LexiCaseSelBestOp.cpp
 CMakeFiles/GPSymbReg.dir/LexiCaseSelBestOp.cpp.o: ../LexiCaseSelBestOp.h
 
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Algorithm.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Communicator.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Context.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Crossover.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Deme.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/ECF_base.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/ECF_macro.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/EvaluateOp.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Fitness.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Genotype.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/HallOfFame.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Individual.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Logger.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Migration.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Mutation.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Operator.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Population.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Randomizer.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Registry.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/SelBestOp.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/SelRandomOp.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/SelectionOperator.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/StatCalc.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/State.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/xml/xmlParser.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: ../LexiCaseFitnessMin.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: ../LexiCaseSelBestOp.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: ../LexiCaseSelOp.cpp
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: ../LexiCaseSelOp.h
+
 CMakeFiles/GPSymbReg.dir/Lexicase.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/./Genotype.h
 CMakeFiles/GPSymbReg.dir/Lexicase.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/AlgAEliGPEA.h
 CMakeFiles/GPSymbReg.dir/Lexicase.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/AlgAEliGPEA2.h
@@ -190,6 +220,7 @@ CMakeFiles/GPSymbReg.dir/Lexicase.cpp.o: /home/kristijan/Documents/Seminar/ECF/t
 CMakeFiles/GPSymbReg.dir/Lexicase.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/xml/xmlParser.h
 CMakeFiles/GPSymbReg.dir/Lexicase.cpp.o: ../LexiCaseFitnessMin.h
 CMakeFiles/GPSymbReg.dir/Lexicase.cpp.o: ../LexiCaseSelBestOp.h
+CMakeFiles/GPSymbReg.dir/Lexicase.cpp.o: ../LexiCaseSelOp.h
 CMakeFiles/GPSymbReg.dir/Lexicase.cpp.o: ../Lexicase.cpp
 CMakeFiles/GPSymbReg.dir/Lexicase.cpp.o: ../Lexicase.h
 CMakeFiles/GPSymbReg.dir/Lexicase.cpp.o: ../SymbRegEvalOp.h
@@ -462,6 +493,7 @@ CMakeFiles/GPSymbReg.dir/main.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk
 CMakeFiles/GPSymbReg.dir/main.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/xml/xmlParser.h
 CMakeFiles/GPSymbReg.dir/main.cpp.o: ../LexiCaseFitnessMin.h
 CMakeFiles/GPSymbReg.dir/main.cpp.o: ../LexiCaseSelBestOp.h
+CMakeFiles/GPSymbReg.dir/main.cpp.o: ../LexiCaseSelOp.h
 CMakeFiles/GPSymbReg.dir/main.cpp.o: ../Lexicase.h
 CMakeFiles/GPSymbReg.dir/main.cpp.o: ../SymbRegEvalOp.h
 CMakeFiles/GPSymbReg.dir/main.cpp.o: ../main.cpp

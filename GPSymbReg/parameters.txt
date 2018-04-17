@@ -2,7 +2,7 @@
 <!--There are no user comments for this parameters.--><ECF>
     <Algorithm>
         <Lexicase>
-            <Entry desc="" key="distance">3.6</Entry>
+            <Entry desc="" key="distance">2</Entry>
         </Lexicase>
     </Algorithm>
     <Genotype>
@@ -18,7 +18,7 @@
         <Entry desc="" key="log.level">3</Entry>
         <Entry desc="" key="milestone.filename">m.txt</Entry>
         <Entry desc="" key="mutation.indprob">0.3</Entry>
-        <Entry desc="" key="population.size">500</Entry>
+        <Entry desc="" key="population.size">100</Entry>
         <Entry desc="" key="term.stagnation">500</Entry>
 		<Entry desc="" key="term.fitnessval">0</Entry>
     </Registry>

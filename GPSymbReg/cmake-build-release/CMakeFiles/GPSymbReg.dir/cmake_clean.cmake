@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/GPSymbReg.dir/Lexicase.cpp.o"
   "CMakeFiles/GPSymbReg.dir/LexiCaseFitnessMin.cpp.o"
   "CMakeFiles/GPSymbReg.dir/LexiCaseSelBestOp.cpp.o"
+  "CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o"
   "GPSymbReg.pdb"
   "GPSymbReg"
 )

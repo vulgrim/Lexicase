@@ -858,6 +858,24 @@ LexiCaseFitnessMin.h
 ecf/SelectionOperator.h
 /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/ecf/SelectionOperator.h
 
+/home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseSelOp.cpp
+ecf/ECF_base.h
+/home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/ecf/ECF_base.h
+LexiCaseSelOp.h
+/home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseSelOp.h
+LexiCaseFitnessMin.h
+/home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseFitnessMin.h
+cmath
+-
+
+/home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseSelOp.h
+ecf/SelRandomOp.h
+-
+ecf/SelectionOperator.h
+/home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/ecf/SelectionOperator.h
+LexiCaseSelBestOp.h
+/home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseSelBestOp.h
+
 /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/Lexicase.cpp
 ecf/ECF_base.h
 -
@@ -865,10 +883,6 @@ Lexicase.h
 /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/Lexicase.h
 ecf/ECF.h
 -
-LexiCaseFitnessMin.h
-/home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseFitnessMin.h
-LexiCaseSelBestOp.h
-/home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseSelBestOp.h
 
 /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/Lexicase.h
 boost/shared_ptr.hpp
@@ -891,6 +905,10 @@ LexiCaseFitnessMin.h
 /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseFitnessMin.h
 LexiCaseSelBestOp.h
 /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseSelBestOp.h
+LexiCaseSelOp.h
+/home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseSelOp.h
+ecf/SelWorstOp.h
+/home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/ecf/SelWorstOp.h
 
 /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/SymbRegEvalOp.cpp
 cmath
