@@ -12,6 +12,7 @@ bool LexiCaseSelOp::initialize(StateP state) {
     state_ = state;
     selRandomOpP = static_cast<SelRandomOpP> (new SelRandomOp);
     selBestOpP = static_cast<LexiCaseSelBestOpP> (new LexiCaseSelBestOp);
+    selWorstOpP = static_cast<SelWorstOpP> (new SelWorstOp);
 
     selRandomOpP->initialize(state);
     selBestOpP->initialize(state);
@@ -52,20 +53,22 @@ std::vector<IndividualP> LexiCaseSelOp::select(const std::vector<IndividualP>& p
 
     std::vector<IndividualP> alive = pool;
     std::vector<IndividualP>::iterator it;
+    double d;
 
     for (int i = 0; i < case_permutation.size(); i++) {
         int currentCase = case_permutation[i];
 
-        // find best individual for current case
-        IndividualP caseBest = selBestOpP->select(alive, currentCase);
-        LexiCaseFitnessMinP bestFitness = boost::static_pointer_cast<LexiCaseFitnessMin>(caseBest->fitness);
+        findBestWorstInd(alive, currentCase);
+        LexiCaseFitnessMinP bestFitness = boost::static_pointer_cast<LexiCaseFitnessMin>(best->fitness);
+        LexiCaseFitnessMinP worstFitness = boost::static_pointer_cast<LexiCaseFitnessMin>(worst->fitness);
+        d = abs(bestFitness->vektor[currentCase] - worstFitness->vektor[currentCase]) * distance;
 
         // terminate individuals with case fitness > (case_best_fitness +- distance)
         it = alive.begin();
         while(it != alive.end()) {
             if (alive.size() == k) break;
             LexiCaseFitnessMinP fitness = boost::static_pointer_cast<LexiCaseFitnessMin>(it->get()->fitness);
-            if((abs(bestFitness->vektor[currentCase] - fitness->vektor[currentCase]) > distance)) {
+            if((abs(bestFitness->vektor[currentCase] - fitness->vektor[currentCase]) > d)) {
                 it = alive.erase(it);
             }
             else ++it;
@@ -97,4 +100,21 @@ void LexiCaseSelOp::initCases(IndividualP ind) {
 
 bool LexiCaseSelOp::setDistance(float d) {
     this->distance = d;
+}
+
+
+void LexiCaseSelOp::findBestWorstInd(const std::vector<IndividualP>& pool, uint caseIndex) {
+    best = pool.at(0);
+    LexiCaseFitnessMinP bestFitness = boost::static_pointer_cast<LexiCaseFitnessMin>(best->fitness);
+    worst = pool.at(0);
+    LexiCaseFitnessMinP worstFitness = boost::static_pointer_cast<LexiCaseFitnessMin>(worst->fitness);
+
+    for (int i = 1; i < pool.size(); i++) {
+        LexiCaseFitnessMinP fitness = boost::static_pointer_cast<LexiCaseFitnessMin>(pool.at(i)->fitness);
+        if (fitness->isBetterThan(bestFitness, caseIndex)) {
+            best = pool.at(i);
+        } else if (fitness->isWorseThan(worstFitness, caseIndex)) {
+            worst = pool.at(i);
+        }
+    }
 }

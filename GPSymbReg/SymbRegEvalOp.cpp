@@ -14,7 +14,7 @@ bool SymbRegEvalOp::initialize(StateP state)
     double x = -10;
     for(uint i = 0; i < nSamples; i++) {
         domain.push_back(x);
-        codomain.push_back(x + sin(x) + cos(x) + 0.5);
+        codomain.push_back(x + sin(x) * cos(x));
         x += 2;
     }
     return true;

@@ -8,9 +8,14 @@ bool LexiCaseFitnessMin::isBetterThan(FitnessP other, uint index){
 	return vektor[index] < compareTo->vektor[index];
 }
 
+bool LexiCaseFitnessMin::isWorseThan(FitnessP other, uint index) {
+    LexiCaseFitnessMinP compareTo = boost::static_pointer_cast<LexiCaseFitnessMin>(other);
+    return vektor[index] > compareTo->vektor[index];
+}
+
 double LexiCaseFitnessMin::getValue() {
 	double value = 0;
-	for (int i = 0; i < vektor.size(); i++) { value += vektor[i]; }
+	for (int i = 0; i < vektor.size(); i++) value += abs(vektor[i]);
 	return value;
 }
 

@@ -13,7 +13,7 @@ Lexicase::Lexicase() {
 
 
 void Lexicase::registerParameters(StateP state) {
-    registerParameter(state, "distance", (voidP) new float(3.0), ECF::FLOAT, "distance");
+    registerParameter(state, "distance", (voidP) new float(0.2), ECF::FLOAT, "distance");
 }
 
 
@@ -28,17 +28,16 @@ bool Lexicase::initialize(StateP state) {
 
 
 bool Lexicase::advanceGeneration(StateP state, DemeP deme) {
-    distance *= 1.25;
     lexiCaseSelOp->setDistance(distance);
     for(uint iIter = 0; iIter < deme->size(); iIter++) {
 
 //        ECF_LOG(state, 5, "Individuals in tournament: ");
 
-        std::vector<IndividualP> tournament; // = lexiCaseSelOp->selectMany(*deme, 3);
-        for (uint i = 0; i < 3; ++i) {
+        std::vector<IndividualP> tournament = lexiCaseSelOp->selectMany(*deme, 3);
+//        for (uint i = 0; i < 3; ++i) {
 //             select a random individual for the tournament
-            tournament.push_back(selRandomOpP->select(*deme));
-        }
+//            tournament.push_back(lexiCaseSelOp->select(*deme));
+//        }
 
         // select the worst from the tournament
         IndividualP worst = selWorstOp->select(tournament);

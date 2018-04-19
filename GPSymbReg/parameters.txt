@@ -2,13 +2,13 @@
 <!--There are no user comments for this parameters.--><ECF>
     <Algorithm>
         <Lexicase>
-            <Entry desc="" key="distance">50</Entry>
+            <Entry desc="" key="distance">0.2</Entry>
         </Lexicase>
     </Algorithm>
     <Genotype>
         <Tree>
             <Entry desc="" key="functionset">sin cos + - / *</Entry>
-            <Entry desc="" key="maxdepth">4</Entry>
+            <Entry desc="" key="maxdepth">3</Entry>
             <Entry desc="" key="terminalset">1 X [-1 1]</Entry>
         </Tree>
     </Genotype>
@@ -18,9 +18,9 @@
         <Entry desc="" key="log.level">3</Entry>
         <Entry desc="" key="milestone.filename">m.txt</Entry>
         <Entry desc="" key="mutation.indprob">0.3</Entry>
-        <Entry desc="" key="population.size">10</Entry>
+        <Entry desc="" key="population.size">200</Entry>
         <!--Entry desc="" key="term.stagnation">500</Entry-->
-        <Entry key="term.eval">500000</Entry>
+        <Entry key="term.eval">100000</Entry>
         <Entry key="batch.statsfile">stats.txt</Entry>
 		<!--<Entry desc="" key="term.fitnessval">0</Entry>-->
     </Registry>

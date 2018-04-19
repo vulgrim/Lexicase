@@ -21,6 +21,7 @@ public:
 
 	double getValue() override;
 	bool isBetterThan(FitnessP other, uint index = 0);
+	bool isWorseThan(FitnessP other, uint index = 0);
 };
 typedef boost::shared_ptr<LexiCaseFitnessMin> LexiCaseFitnessMinP;
 

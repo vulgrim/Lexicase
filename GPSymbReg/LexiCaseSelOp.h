@@ -6,6 +6,7 @@
 #define GPSYMBREG_LEXICASESELOP_H
 
 #include <ecf/SelRandomOp.h>
+#include <ecf/SelWorstOp.h>
 #include "ecf/SelectionOperator.h"
 #include "LexiCaseSelBestOp.h"
 
@@ -21,6 +22,10 @@ protected:
     float distance;
     LexiCaseSelBestOpP selBestOpP;
     SelRandomOpP selRandomOpP;
+    SelWorstOpP selWorstOpP;
+    IndividualP best;
+    IndividualP worst;
+    void findBestWorstInd(const std::vector<IndividualP>&, uint);
     std::vector<uint> case_permutation;
     void initCases(IndividualP ind);
     std::vector<IndividualP> select(const std::vector<IndividualP>&, uint);

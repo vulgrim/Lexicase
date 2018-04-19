@@ -79,6 +79,7 @@ CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o
  /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Registry.h
  /home/kristijan/Documents/Seminar/ECF/trunk/ecf/SelBestOp.h
  /home/kristijan/Documents/Seminar/ECF/trunk/ecf/SelRandomOp.h
+ /home/kristijan/Documents/Seminar/ECF/trunk/ecf/SelWorstOp.h
  /home/kristijan/Documents/Seminar/ECF/trunk/ecf/SelectionOperator.h
  /home/kristijan/Documents/Seminar/ECF/trunk/ecf/StatCalc.h
  /home/kristijan/Documents/Seminar/ECF/trunk/ecf/State.h

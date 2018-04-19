@@ -78,6 +78,7 @@ CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/
 CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/Registry.h
 CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/SelBestOp.h
 CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/SelRandomOp.h
+CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/SelWorstOp.h
 CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/SelectionOperator.h
 CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/StatCalc.h
 CMakeFiles/GPSymbReg.dir/LexiCaseSelOp.cpp.o: /home/kristijan/Documents/Seminar/ECF/trunk/ecf/State.h

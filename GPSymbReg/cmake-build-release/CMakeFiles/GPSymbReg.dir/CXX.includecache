@@ -871,6 +871,8 @@ cmath
 /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/LexiCaseSelOp.h
 ecf/SelRandomOp.h
 -
+ecf/SelWorstOp.h
+-
 ecf/SelectionOperator.h
 /home/kristijan/Documents/Seminar/ECF/trunk/examples/GPSymbReg/ecf/SelectionOperator.h
 LexiCaseSelBestOp.h
