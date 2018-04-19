@@ -23,7 +23,7 @@ protected:
     SelRandomOpP selRandomOpP;
     std::vector<uint> case_permutation;
     void initCases(IndividualP ind);
-
+    std::vector<IndividualP> select(const std::vector<IndividualP>&, uint);
 };
 typedef boost::shared_ptr<LexiCaseSelOp> LexiCaseSelOpP;
 

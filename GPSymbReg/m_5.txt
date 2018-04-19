@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ECF milestone="Thu Apr 19 08:54:04 2018
+">
+	<Registry>
+		<Entry key="Lexicase.distance">50</Entry>
+		<Entry key="Tree.functionset">sin cos + - / *</Entry>
+		<Entry key="Tree.maxdepth">4</Entry>
+		<Entry key="Tree.terminalset">1 X [-1 1]</Entry>
+		<Entry key="batch.logfile_">log.txt</Entry>
+		<Entry key="batch.remaining_">0</Entry>
+		<Entry key="batch.repeats">5</Entry>
+		<Entry key="batch.statsfile">stats.txt</Entry>
+		<Entry key="log.filename">log_5.txt</Entry>
+		<Entry key="log.level">3</Entry>
+		<Entry key="milestone.elapsedtime_">6</Entry>
+		<Entry key="milestone.filename">m.txt</Entry>
+		<Entry key="milestone.generation_">49999</Entry>
+		<Entry key="mutation.indprob">0.3</Entry>
+		<Entry key="population.size">10</Entry>
+		<Entry key="term.eval">500000</Entry>
+	</Registry>
+	<Population size="1">
+		<HallOfFame size="1">
+			<Individual size="1" gen="19452">
+				<LexiCaseFitnessMin value="8.12471e-311"/>
+				<Tree size="10">+ + cos X sin X + X sin D_0.523611 </Tree>
+			</Individual>
+		</HallOfFame>
+		<Deme size="10">
+			<HallOfFame size="1">
+				<Individual size="1" gen="19452">
+					<LexiCaseFitnessMin value="8.12471e-311"/>
+					<Tree size="10">+ + cos X sin X + X sin D_0.523611 </Tree>
+				</Individual>
+			</HallOfFame>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.061e-313"/>
+				<Tree size="12">+ + cos X sin X + + sin D_0.523611 X X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.061e-313"/>
+				<Tree size="5">+ cos X sin X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.061e-313"/>
+				<Tree size="10">+ + cos X sin X + sin D_0.523611 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.061e-313"/>
+				<Tree size="10">+ + cos X sin X + sin D_0.523611 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.061e-313"/>
+				<Tree size="10">+ + cos X sin X + sin D_0.523611 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.061e-313"/>
+				<Tree size="10">+ + cos X sin X + sin D_0.523611 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.061e-313"/>
+				<Tree size="10">+ + cos X sin X + sin D_0.523611 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.061e-313"/>
+				<Tree size="10">+ + cos X sin X + sin D_0.523611 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="8.12471e-311"/>
+				<Tree size="10">+ + cos X sin X + sin D_0.523611 X </Tree>
+			</Individual>
+			<Individual size="1">
+				<LexiCaseFitnessMin value="1.061e-313"/>
+				<Tree size="10">+ + cos X sin X + sin D_0.523611 X </Tree>
+			</Individual>
+		</Deme>
+	</Population>
+</ECF>
